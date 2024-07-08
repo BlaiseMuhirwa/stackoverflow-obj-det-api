@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stackoverflow-obj-det-api"
+version = "0.1.0"
+description = "Stack Overflow Object Detection API"
+authors = ["BlaiseMuhirwa <blaisemuhirwa3@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
