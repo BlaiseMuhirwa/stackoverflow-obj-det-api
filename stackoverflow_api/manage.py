@@ -4,6 +4,9 @@ import os
 import sys
 
 
+# sys.path.append(os.path.join(os.path.dirname(__file__), 'stackoverflow_api'))
+
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "stackoverflow_api.settings")
@@ -19,4 +22,6 @@ def main():
 
 
 if __name__ == "__main__":
+    # Add the detection directory to the Python path
+    sys.path.append(os.path.join(os.path.dirname(__file__), 'detection', 'api_client'))
     main()

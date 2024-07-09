@@ -10,9 +10,9 @@ from PIL import Image
 import torch
 
 # Import the generated api client
-from detection.api_client.openapi_client.api.default_api import DefaultApi
-from detection.api_client.openapi_client.api_client import ApiClient
-from detection.api_client.openapi_client.models.users_post_request import UsersPostRequest
+from openapi_client.api.default_api import DefaultApi
+from openapi_client.api_client import ApiClient
+from openapi_client.models.users_post_request import UsersPostRequest
 
 
 class StackOverflowObjDetectionView(APIView):
